@@ -1,0 +1,210 @@
+{
+    "common": {
+        "loading": "Загрузка системы...",
+        "search": "Поиск...",
+        "actions": "Действия",
+        "edit": "Редактировать",
+        "delete": "Удалить",
+        "save": "Сохранить",
+        "cancel": "Отмена",
+        "add": "Добавить",
+        "status": "Статус",
+        "all": "Все",
+        "view": "Просмотр",
+        "history": "История",
+        "block": "Блокировать",
+        "owner": "Владелец",
+        "next": "Далее",
+        "previous": "Назад",
+        "showing_x_of_y": "Показано {{count}} из {{total}} {{item}}",
+        "search_placeholder": "Поиск по номеру...",
+        "fill_all_fields": "Пожалуйста, заполните все поля",
+        "all_statuses": "Все статусы",
+        "close": "Закрыть",
+        "page_x_of_y": "Стр. {{current}} из {{total}}",
+        "name": "Наименование",
+        "type": "Тип",
+        "inn": "ИНН/Паспорт",
+        "address": "Адрес",
+        "phone": "Телефон",
+        "email": "Email",
+        "description": "Описание",
+        "createdAt": "Дата создания",
+        "confirm": "Подтвердить",
+        "error": "Ошибка",
+        "success": "Успешно",
+        "collapse": "Свернуть"
+    },
+    "nav": {
+        "dashboard": "Дашборд",
+        "numbers": "Номера",
+        "operators": "Операторы",
+        "categories": "Категории",
+        "subscribers": "Абоненты",
+        "contracts": "Договоры",
+        "settings": "Настройки",
+        "management": "Управление номерами",
+        "logout": "Выход"
+    },
+    "dashboard": {
+        "overview": "Обзор номерной ёмкости",
+        "loading_stats": "Загрузка статистики...",
+        "recent_numbers": "Последние номера",
+        "all_numbers": "Все номера",
+        "history": "История владения номерами",
+        "operators_distribution": "Распределение по операторам",
+        "numbers_count": "Номеров",
+        "status_stats": "Статистика по статусам",
+        "total_numbers": "Всего номеров",
+        "free_numbers": "Свободных",
+        "active_numbers": "Активных",
+        "reserved_numbers": "Забронировано",
+        "quarantine_numbers": "В карантине",
+        "total_subscribers": "Абонентов",
+        "from_total": "от общего"
+    },
+    "numbers": {
+        "title": "Телефонные номера",
+        "subtitle": "Управление и мониторинг номерной ёмкости",
+        "import": "Импорт",
+        "export": "Экспорт",
+        "add_number": "Добавить номер",
+        "delete_success": "Номер удален",
+        "delete_error": "Ошибка при удалении",
+        "confirm_delete": "Вы уверены, что хотите удалить этот номер?",
+        "assign_to_subscriber": "Закрепить за абонентом",
+        "table": {
+            "number": "Номер",
+            "operator": "Оператор",
+            "category": "Категория",
+            "status": "Статус",
+            "last_update": "Обновлено"
+        },
+        "filters": {
+            "all_operators": "Все операторы",
+            "all_categories": "Все категории"
+        },
+        "modals": {
+            "add_title": "Добавить новый номер",
+            "edit_title": "Редактирование номера",
+            "view_title": "Просмотр номера",
+            "import_title": "Импорт номеров",
+            "phone_number": "Номер телефона",
+            "operator_placeholder": "Выберите оператора",
+            "category_placeholder": "Выберите категорию",
+            "status_placeholder": "Выберите статус",
+            "file_label": "Файл (XLSX или CSV)",
+            "file_hint": "Первая колонка должна содержать номера в формате +992...",
+            "import_start": "Начать импорт",
+            "importing": "Импорт...",
+            "adding": "Добавление...",
+            "saving": "Сохранение...",
+            "success_add": "Номер успешно добавлен",
+            "success_edit": "Данные номера обновлены",
+            "success_import": "Импорт успешно завершен",
+            "status_history_title": "История статусов",
+            "no_history": "История изменений отсутствует"
+        }
+    },
+    "subscribers": {
+        "title": "Абоненты",
+        "subtitle": "База физических и юридических лиц",
+        "add_subscriber": "Добавить абонента",
+        "table": {
+            "name": "ФИО / Организация",
+            "type": "Тип",
+            "inn": "ИНН / Паспорт",
+            "address": "Адрес",
+            "contact": "Контакт",
+            "numbers_count": "Номера"
+        },
+        "types": {
+            "individual": "Физ. лицо",
+            "entity": "Юр. лицо"
+        },
+        "modals": {
+            "add_title": "Добавить абонента",
+            "edit_title": "Редактирование абонента",
+            "success_add": "Абонент успешно добавлен",
+            "success_edit": "Данные абонента обновлены",
+            "confirm_delete": "Вы уверены, что хотите удалить этого абонента?"
+        }
+    },
+    "operators": {
+        "title": "Операторы",
+        "subtitle": "Справочник операторов связи",
+        "add_operator": "Добавить оператора",
+        "modals": {
+            "add_title": "Добавить оператора",
+            "edit_title": "Редактирование оператора"
+        }
+    },
+    "categories": {
+        "title": "Категории",
+        "subtitle": "Справочник категорий номеров",
+        "add_category": "Добавить категорию",
+        "modals": {
+            "add_title": "Добавить категорию",
+            "edit_title": "Редактирование категории"
+        }
+    },
+    "contracts": {
+        "title": "Договоры",
+        "subtitle": "Договоры с абонентами и закрепление номеров",
+        "add_contract": "Добавить договор",
+        "table": {
+            "number": "№ Договора",
+            "date": "Дата",
+            "subscriber": "Абонент",
+            "phone": "Номер телефона"
+        },
+        "modals": {
+            "add_title": "Создать новый договор",
+            "edit_title": "Редактирование договора",
+            "select_subscriber": "Выберите абонента",
+            "select_number": "Выберите номер телефона",
+            "contract_date": "Дата договора"
+        }
+    },
+    "settings": {
+        "title": "Настройки",
+        "subtitle": "Конфигурация системы",
+        "general": "Общие настройки",
+        "org_name": "Название организации",
+        "timezone": "Часовой пояс",
+        "quarantine": "Карантин номеров",
+        "quarantine_days": "Дней в карантине",
+        "quarantine_hint": "Период, в течение которого номер недоступен после расторжения договора",
+        "notifications": "Уведомления",
+        "email_notif": "Email-уведомления",
+        "email_hint": "Получать уведомления о новых заявках",
+        "audit_log": "Аудит действий",
+        "audit_hint": "Логировать все изменения в системе"
+    },
+    "auth": {
+        "login_title": "Вход в систему",
+        "login_desc": "Введите ваши данные для доступа к панели управления",
+        "username": "Логин",
+        "password": "Пароль",
+        "login_button": "Войти",
+        "logging_in": "Вход...",
+        "success": "Успешный вход в систему",
+        "error": "Ошибка входа",
+        "invalid": "Неверные учетные данные"
+    },
+    "status": {
+        "free": "Свободен",
+        "active": "Активен",
+        "reserved": "Забронирован",
+        "blocked": "Заблокирован",
+        "quarantine": "Карантин"
+    },
+    "errors": {
+        "not_found_title": "Страница не найдена",
+        "not_found_desc": "Запрашиваемая страница не существует.",
+        "back_home": "Вернуться на дашборд",
+        "something_wrong": "Что-то пошло не так",
+        "unexpected_error": "Произошла непредвиденная ошибка. Мы уже работаем над её исправлением.",
+        "refresh_page": "Обновить страницу"
+    }
+}
